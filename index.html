@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>YRL Centre</title>
+    <meta name="application-name" content="YRL Centre">
+    <meta name="robots" content="yrlcentre, yrlcenter"><!-- All Search Engines -->
+    <meta name="googlebot" content="yrlcentre, yrlcenter"><!-- Google Specific -->
+    <!-- Tells Google not to show the sitelinks search box -->
+    <meta name="google" content="nositelinkssearchbox">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">
+    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
+    <!-- Add to home screen for Android and modern mobile browsers -->
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
+    <meta name="theme-color" content="#4DBA87">
+
+    <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="yrlcentre">
+    <link rel="apple-touch-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/apple-touch-icon-152x152.png">
+    <link rel="mask-icon" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/safari-pinned-tab.svg" color="#4DBA87">
+    <!-- Add to home screen for Windows -->
+    <meta name="msapplication-TileImage" content="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#000000">
+    <% for (var chunk of webpack.chunks) {
+        for (var file of chunk.files) {
+          if (file.match(/\.(js|css)$/)) { %>
+    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
+
+    <!-- Bootstrap style sheet -->
+    <link href="<%= htmlWebpackPlugin.files.publicPath %>static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- css style sheet -->
+    <link id="style" rel="stylesheet" href="<%= htmlWebpackPlugin.files.publicPath %>static/css/style.css">
+
+    <link id="colors" rel="stylesheet" href="<%= htmlWebpackPlugin.files.publicPath %>static/css/color-yellow.css">
+
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.publicPath %>static/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i%2cOxygen:300,400,700"
+          rel="stylesheet">
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.publicPath %>static/css/user-styles.css">
+  </head>
+  <body>
+    <noscript>
+      This is your fallback content in case JavaScript fails to load.
+    </noscript>
+    <div id="app"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="<%= htmlWebpackPlugin.files.publicPath %>static/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="<%= htmlWebpackPlugin.files.publicPath %>static/js/bootstrap.min.js"></script>
+    <!-- Todo: only include in production -->
+    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
+    <!-- built files will be auto injected -->
+
+  </body>
+</html>

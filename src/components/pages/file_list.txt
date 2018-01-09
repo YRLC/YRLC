@@ -1,0 +1,10 @@
+CurrentCourses.vue
+ExtraCurricular.vue
+TeachingPractice.vue
+Accommodation.vue
+Travel.vue
+WhatToDo.vue
+Excursions.vue
+Activities.vue
+Gallery.vue
+StudentsSay.vue

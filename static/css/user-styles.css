@@ -1,0 +1,72 @@
+html, #app, main, #wrapper {
+  height: 100%;
+}
+body {
+  height: 100vh;
+}
+#wrapper {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  flex: 1 0 auto;
+}
+
+#wrapper.black {
+  background-color: #2e2e2e!important;
+}
+.page.black {
+  background-color: #2e2e2e;
+}
+
+.video-frame {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+
+.page-section.page-section--info {
+  color: #444;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+.page-section.page-section--info h3 {
+  color: #ffb606;
+}
+.page-section.page-section--info a {
+  color: #444;
+  opacity: 0.8;
+}
+.page-section.page-section--info a:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 991px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  .nav.navbar-nav {
+    padding-top: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 991px) and (max-width: 1028px) {
+  #header2 .navbar-default .navbar-nav > li > a {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .collapse.navbar-collapse {
+    padding: 0;
+  }
+  .nav.navbar-nav {
+    padding-top: 20px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+}
