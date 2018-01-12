@@ -14,7 +14,7 @@
                 And fun courses for school children during the holidays when we combine classes with entertainment such as skiing, snowboarding, skating in winter and hiking, paintball, boating, horse riding in summer.
               </p>
               <p>
-                Please <a href="mailto:info@yrlcentre.com">contact us</a> for details.
+                Please <a href="mailto:info@yrlccentre.com">contact us</a> for details.
               </p>
               <h3>Group Courses (all 18 weeks in length)</h3>
               <ul>
@@ -57,7 +57,12 @@
               </p>
 
               <p>NOTE: Students from the same Universities are asked to organise their groups and fly all together.</p>
-              <p>An approximate schedule for an 18-week course of your Year Abroad -</p>
+              <p>
+                <a
+                  href="https://docs.google.com/document/d/12dOTahZTFqzzFKgUDCHv0EAZeSV5PbzHzJoMyQEZNKQ/edit?usp=sharing ">
+                  An approximate schedule for an 18-week course of your Year Abroad
+                </a>
+              </p>
 
             </div>
           </section>

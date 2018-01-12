@@ -8,7 +8,7 @@
               <h2>Courses at YRLC</h2>
               <p>
                 YRLC run several different types of courses throughout the year. The standard course syllabuses are detailed below, however courses can also be customised to your requirements. Please <b>contact us</b> for details
-                <a href="mailto:info@yrlcentre.com">info@yrlcentre.com</a>.
+                <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a>.
               </p>
             </div>
           </section>

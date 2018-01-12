@@ -64,4 +64,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style></style>
+<style scoped>
+  .nav.navbar-nav {
+    background-color: rgb(240, 240, 240);
+  }
+</style>

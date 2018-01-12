@@ -86,7 +86,7 @@
           <strong class="heading">A wide range of courses</strong>
 
           <span class="feel-free">Have any questions? Feel free to contact us!</span>
-          <span class="tel">email: <a href="mailto:info@yrlcentre.com">info@yrlcentre.com</a></span>
+          <span class="tel">email: <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
         </div>
       </div>
     </div>

@@ -26,7 +26,7 @@
                 </address>
               </a>
 
-              <span>We are always open to communication, e-mail us at <a href="mailto:info@yrlcentre.com">info@yrlcentre.com</a></span>
+              <span>We are always open to communication, e-mail us at <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
             </div>
           </div>
         </section>

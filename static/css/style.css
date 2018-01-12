@@ -14419,15 +14419,12 @@ h1.short {
 
   #header2.header4 .navbar-toggle {
     float: left;
-    margin: 19px 0 19px 30px;
+    margin: 19px 0;
+    border-color: #ffb606;
   }
 
   .justics-holder {
     margin: -34px 0 0;
-  }
-
-  #header2.header4 .navbar-toggle {
-    border-color: #ffb606;
   }
 
   #header2.header4 .navbar-default .navbar-toggle .icon-bar {

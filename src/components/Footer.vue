@@ -1,6 +1,6 @@
 <template>
   <footer class="bottom-footer inner">
-    <span>&copy; Copyrights {{ currentYear }} YRL Centre. All Rights Reserved</span>
+    <span>&copy; Copyrights {{ currentYear }} Yaroslavl Russian Language Centre. All Rights Reserved</span>
   </footer>
 </template>
 
