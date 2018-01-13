@@ -65,7 +65,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .nav.navbar-nav {
-    background-color: rgb(240, 240, 240);
+
+
+  @media only screen and (max-width: 768px) {
+    .nav.navbar-nav {
+      background-color: rgb(240, 240, 240);
+    }
   }
+
 </style>

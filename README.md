@@ -1,6 +1,6 @@
-# yrlcentre
+# yrlc
 
-> YRL Centre
+> YRLC
 
 ## Build Setup
 
