@@ -18,7 +18,7 @@
           <ul class="nav navbar-nav">
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Home' }"><a>Home</a></router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Courses' }">
-              <a>Courses at YRLC</a>
+              <a>Courses</a>
               <ul class="drop-down d-7">
                 <router-link tag="li" exact-active-class="active" :to="{ name: 'Current-courses' }">
                   <a>Current Courses at YRLC</a>
@@ -35,7 +35,7 @@
               </ul>
             </router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Accommodation' }"><a>Accommodation</a></router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'Travel' }"><a>Travelling to Yaroslavl</a></router-link>
+            <router-link tag="li" exact-active-class="active" :to="{ name: 'Travel' }"><a>Travel to Yaroslavl</a></router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'What-to-do' }">
               <a>What to do in Yaroslavl</a>
               <ul class="drop-down d-7">
@@ -46,6 +46,14 @@
             </router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Gallery' }"><a>Gallery</a></router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Students-say' }"><a>What our students say</a></router-link>
+            <router-link tag="li" exact-active-class="active" :to="{ name: 'Promos' }">
+              <a>Promos</a>
+              <ul class="drop-down d-7">
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Interactive-Courses' }">
+                  <a>Special interactive courses</a>
+                </router-link>
+              </ul>
+            </router-link>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -53,7 +61,6 @@
 
   </header>
 </template>
-
 <script>
 export default {
   name: 'header',
@@ -67,10 +74,11 @@ export default {
 <style scoped>
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
     .nav.navbar-nav {
       background-color: rgb(240, 240, 240);
     }
   }
+
 
 </style>

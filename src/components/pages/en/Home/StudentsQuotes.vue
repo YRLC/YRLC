@@ -5,7 +5,6 @@
         <div class="row">
           <div class="col-xs-12 heading-area">
             <h1>WHAT OUR STUDENTS SAY</h1>
-            <p>The others comfortable these days are all happy and free listen to a story</p>
           </div>
           <div id="carousel-example-generic231" class="carousel slide" data-ride="carousel">
             <!-- Wrapper for slides -->

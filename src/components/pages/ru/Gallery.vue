@@ -1,11 +1,26 @@
 <template>
   <div class="page">
-    <gallery-component/>
+    <div class="page-section black">
+      <div class="container">
+        <div class="row">
+          <section class="gallery">
+            <div class="container">
+              <div class="row">
+                <div class="gallery-heading">
+                  <h1>Галерея</h1>
+                </div>
+                <gallery-component/>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-  import GalleryComponent from './Gallery/GalleryComponent'
+  import GalleryComponent from '../../shared/Gallery/GalleryComponent'
 
   export default {
     name: 'gallery',

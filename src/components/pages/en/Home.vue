@@ -86,7 +86,17 @@
           <strong class="heading">A wide range of courses</strong>
 
           <span class="feel-free">Have any questions? Feel free to contact us!</span>
-          <span class="tel">email: <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
+          <span class="tel">email:
+            <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a>
+          </span>
+          <span class="tel">facebook:
+            <a href="https://www.facebook.com/yaroslavlrussian/"
+               target="_blank">yaroslavlrussian</a>
+          </span>
+          <span class="tel">youtube:
+            <a href="https://www.youtube.com/channel/UCledpmqihk4dTMQoXsT691w"
+               target="_blank">YRLC</a>
+          </span>
         </div>
       </div>
     </div>

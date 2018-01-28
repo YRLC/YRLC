@@ -2,23 +2,35 @@
   <div id="app">
     <main>
       <div id="wrapper">
-        <Header/>
+        <Header v-if="pageLanguage === 'en'"/>
+        <RuHeader v-else="pageLanguage === 'ru'"/>
         <router-view></router-view>
-        <Footer/>
+        <Footer v-if="pageLanguage === 'en'"/>
+        <RuFooter v-else="pageLanguage === 'ru'"/>
       </div>
     </main>
   </div>
 </template>
 
 <script>
-  import Header from './components/Header'
-  import Footer from './components/Footer'
+  import Header from './components/pages/en/Header'
+  import Footer from './components/pages/en/Footer'
+  import RuHeader from './components/pages/ru/Header'
+  import RuFooter from './components/pages/ru/Footer'
 
   export default {
     name: 'app',
     components: {
       Header,
-      Footer
+      Footer,
+      RuHeader,
+      RuFooter
+    },
+    computed: {
+      // a computed getter
+      pageLanguage: function () {
+        return window.location.pathname.includes('/ru') ? 'ru' : 'en'
+      }
     }
   }
 </script>

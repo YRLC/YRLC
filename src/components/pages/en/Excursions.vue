@@ -48,7 +48,7 @@
 
               <h3>A trip to the Rybinsk “Sea”</h3>
               <p>
-                This is a huge man-made water reservoir, made under Stalin's orders. The building of this saw the whole town of Mologa submerged. It is now a beautiful  national water reserve with thick forests around, which makes it an ideal camping, fishing and boating spot. There is also a unique fish laboratory (it used to be secret until the time of Perestroyka).They specialise in breeding rare species of fish such as sturgeon, famous for its black caviar. Ten kilos of this caviar were eaten on a floating restaurant during Millennium of Yaroslavl. It is considered as precious as diamonds.
+                This is a huge man-made water reservoir, made under Stalin's orders. The building of this saw the whole town of Mologa submerged. It is now a beautiful national water reserve with thick forests around, which makes it an ideal camping, fishing and boating spot. There is also a unique fish laboratory (it used to be secret until the time of Perestroyka).They specialise in breeding rare species of fish such as sturgeon, famous for its black caviar. Ten kilos of this caviar were eaten on a floating restaurant during Millennium of Yaroslavl. It is considered as precious as diamonds.
               </p>
 
               <h3>A trip to Kukoboi</h3>
@@ -57,9 +57,9 @@
               </p>
 
               <h3>A trip to Karabikha</h3>
-              <p>Th
-                e manor house of the famous Russian poet Nikolai Nekrasov is now preserved as a museum.  He lived and worked there and the atmosphere still today reflects this old Russian way of life. There is also a lovely wood around the house and a stream. It is a very poetic place for those who consider themselves true romantics.
-                </p>
+              <p>
+                The manor house of the famous Russian poet Nikolai Nekrasov is now preserved as a museum. He lived and worked there and the atmosphere still today reflects this old Russian way of life. There is also a lovely wood around the house and a stream. It is a very poetic place for those who consider themselves true romantics.
+              </p>
 
               <p>
                 Trips to Moscow or St. Petersburg, Baltic states or Far East, The Baikal Lake or The Urals, the Crimea or Kazakhstan, Ukraine or Belarus, Archangelsk, Vladivostok, etc.
@@ -68,7 +68,7 @@
                 We help you to organize your journey wherever you want to go and to make your dream trips come true.
               </p>
               <p>
-                We have a long- term partnership with a resort in the Crimea and in Irkutsk on the lake Baikal. We have been sending  our students there for many years and they are always happy to welcome new students.
+                We have a long- term partnership with a resort in the Crimea and in Irkutsk on the lake Baikal. We have been sending our students there for many years and they are always happy to welcome new students.
               </p>
 
             </div>

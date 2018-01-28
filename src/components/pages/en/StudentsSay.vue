@@ -1,11 +1,22 @@
 <template>
   <div class="page black">
-    <video-slider-component/>
+    <div class="page-section black">
+      <section class="our-clients black">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 heading-area">
+              <h1>WHAT OUR STUDENT SAY</h1>
+            </div>
+            <video-slider-component/>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
 <script>
-  import VideoSliderComponent from './StudentsSay/VideoSliderComponent'
+  import VideoSliderComponent from '../../shared/StudentsSay/VideoSliderComponent'
 
   export default {
     name: 'studentsSay',

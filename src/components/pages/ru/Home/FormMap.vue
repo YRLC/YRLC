@@ -6,27 +6,28 @@
         <section class="form-section">
           <div class="col-sm-6 col-xs-12 black pull-right">
             <div class="fill-form">
-              <span class="heading">Apply Now</span>
+              <span class="heading">Подать заявку</span>
               <span>
-                Fill in the
-                <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing"
-                   target="_blank">form</a>
-                to apply to study at YRLC: <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">goo.gl/gosdHb</a></span>
+                Заполните
+                <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">форму</a>,
+                чтобы подать заявку на обучение:
+                <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">goo.gl/gosdHb</a></span>
               <a href="https://goo.gl/maps/apBVKtUCwJT2" target="_blank" class="address-link">
                 <address class="address">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <i class="address-heading">Address</i>
+                  <i class="address-heading">Юридический адрес</i>
                   <p class="address-whole">
-                    Yaroslavl Russian Language Centre <br>
-                    Ploshad Bogoyavlenia 2/27 <br>
-                    Yaroslavl’ <br>
-                    150000 <br>
-                    Russia
+                    “Ярославский Центр Русского Языка”<br>
+                    пл. Богоявления,2/27 <br>
+                    Ярославль <br>
+                    Индекс 150000 <br>
+                    Россия
                   </p>
                 </address>
               </a>
-
-              <span>We are always open to communication, e-mail us at <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
+              <span>Свяжитесь с нами <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
+              <span><a href="https://www.facebook.com/yaroslavlrussian/">Facebook</a></span>
+              <span><a href="https://www.youtube.com/channel/UCledpmqihk4dTMQoXsT691w">Youtube</a></span>
             </div>
           </div>
         </section>
