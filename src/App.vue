@@ -4,6 +4,7 @@
       <div id="wrapper">
         <Header v-if="pageLanguage === 'en'"/>
         <RuHeader v-else="pageLanguage === 'ru'"/>
+        <language-switcher :pageLanguage="pageLanguage" :changeLanguage="changeLanguage"/>
         <router-view></router-view>
         <Footer v-if="pageLanguage === 'en'"/>
         <RuFooter v-else="pageLanguage === 'ru'"/>
@@ -17,6 +18,7 @@
   import Footer from './components/pages/en/Footer'
   import RuHeader from './components/pages/ru/Header'
   import RuFooter from './components/pages/ru/Footer'
+  import LanguageSwitcher from './components/shared/LanguageSwitcher'
 
   export default {
     name: 'app',
@@ -24,12 +26,20 @@
       Header,
       Footer,
       RuHeader,
-      RuFooter
+      RuFooter,
+      LanguageSwitcher
     },
-    computed: {
-      // a computed getter
-      pageLanguage: function () {
-        return window.location.pathname.includes('/ru') ? 'ru' : 'en'
+    data () {
+      return {
+        pageLanguage: window.location.pathname.includes('/ru') ? 'ru' : 'en'
+      }
+    },
+    methods: {
+      changeLanguage: function () {
+        const splittedUrl = location.pathname.split('/')
+        const typeToSwitch = this.pageLanguage === 'en' ? 'ru' : 'en'
+        this.pageLanguage = typeToSwitch
+        this.$router.push({ path: `/${typeToSwitch}/${splittedUrl[splittedUrl.length - 1]}` })
       }
     }
   }
