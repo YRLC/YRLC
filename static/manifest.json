@@ -11,6 +11,16 @@
       "src": "/static/img/icons/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/apple-touch-icon-precomposed.png",
+      "sizes": "180x180",
+      "type": "image/png"
     }
   ],
   "start_url": "/index.html",
