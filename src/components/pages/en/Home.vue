@@ -11,7 +11,7 @@
               <div class="justices-img-background"></div>
               <div class="justics-text">
                 <div class="txt">
-                  <h1>LEARN CONTEMPORARY RUSSIAN IN AN ANCIENT CITY</h1>
+                  <h1 class="main-heading">LEARN CONTEMPORARY RUSSIAN IN AN ANCIENT CITY</h1>
                 </div>
               </div>
             </div>
@@ -54,28 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <ul class="w-list">
-                <li>
-                  <span class="count-4">founded in 2008</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">students from several British universities</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">students of&nbsp;all ages from&nbsp;&gt;15&nbsp;countries</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">2018&nbsp;&mdash; celebrating 10&nbsp;years of&nbsp;work</span>
-                  <em class="one"></em>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <timeline :data="timelineData"/>
         </section>
       </div>
     </div>
@@ -106,7 +85,7 @@
         <div class="row">
           <section class="celebrate-ten-years">
             <div class="col-xs-12 heading-holder">
-              <h1>To celebrate 10 years of our centre we offer free visa application assistance!</h1>
+              <h2>To celebrate 10 years of our centre we offer free visa application assistance!</h2>
               <p>
                 A 10% discount for inviting one of your friends to do our courses!* <br/>
                 *In case your friend books a course.
@@ -139,6 +118,7 @@
   import LatestNews from './Home/LatestNews'
   import StudentsQuotes from './Home/StudentsQuotes'
   import OurCoursesComponent from './Home/OurCoursesComponent'
+  import Timeline from '../../shared/Home/Timeline'
 
   export default {
     name: 'home',
@@ -146,13 +126,28 @@
       FormMap,
       LatestNews,
       StudentsQuotes,
-      OurCoursesComponent
+      OurCoursesComponent,
+      Timeline
     },
     data () {
-      return {}
+      return {
+        timelineData: [
+          'founded in 2008',
+          'students from several British universities',
+          'students of&nbsp;all ages from&nbsp;&gt;15&nbsp;countries',
+          '2018&nbsp;&mdash; celebrating 10&nbsp;years of&nbsp;work'
+        ]
+      }
     }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style></style>
+<style scoped>
+  @media (max-width: 500px) {
+    h1.main-heading {
+      font-size: 21px;
+      padding-top: 20px;
+    }
+  }
+</style>

@@ -49,7 +49,7 @@
             <router-link tag="li" exact-active-class="active" :to="{ name: 'Promos' }">
               <a>Promos</a>
               <ul class="drop-down d-7">
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Interactive-Courses' }">
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'Interactive-courses' }">
                   <a>Special interactive courses</a>
                 </router-link>
               </ul>

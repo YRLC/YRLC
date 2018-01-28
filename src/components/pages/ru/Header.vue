@@ -17,17 +17,23 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Home' }"><a>Главная</a></router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Courses' }">
-              <a>Курсы и цены</a>
+            <li>
+              <a class="no-click">Курсы и цены</a>
               <ul class="drop-down d-7">
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Courses' }">
+                  <a>Курсы</a>
+                </router-link>
                 <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Prices' }">
                   <a>Цены</a>
                 </router-link>
                 <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Extra-curricular' }">
                   <a>Внеклассные занятия</a>
                 </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Teaching-practice' }">
+                  <a>Практика преподавания</a>
+                </router-link>
               </ul>
-            </router-link>
+            </li>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-What-to-do' }"><a>Чем заняться в Ярославле?</a></router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Gallery' }"><a>Галерея</a></router-link>
             <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Students-say' }"><a>Отзывы</a></router-link>
@@ -61,6 +67,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .no-click {
+    cursor: pointer;
+  }
   .navbar {
     width: 100%;
     display: flex;

@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div class="page-section black">
+    <div class="page-section black page-section--info">
       <div class="container">
         <div class="row">
           <section class="gallery">
@@ -42,4 +42,10 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style></style>
+<style scoped>
+  @media (max-width: 768px) {
+    .page-section--info {
+      padding-top: 60px;
+    }
+  }
+</style>

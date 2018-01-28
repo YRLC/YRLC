@@ -3,8 +3,9 @@
     <div class="page-section white page-section--info">
       <div class="container">
         <div class="row">
-          <h2>Prices</h2>
-          <section class="table yellow">
+          <div class="col-xs-12">
+            <h2>Prices</h2>
+            <section class="table yellow">
             <div class="table-frame">
               <table class="p-table">
                 <tr>
@@ -92,6 +93,7 @@
               </table>
             </div>
           </section>
+          </div>
         </div>
         <div class="row">
           <section>

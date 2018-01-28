@@ -25,6 +25,7 @@ import RuWhatToDo from '@/components/pages/ru/WhatToDo'
 import RuInteractiveCourses from '@/components/pages/ru/InteractiveCourses'
 import RuGallery from '@/components/pages/ru/Gallery'
 import RuStudentsSay from '@/components/pages/ru/StudentsSay'
+import RuTeachingPractice from '@/components/pages/ru/TeachingPractice'
 import RuPromos from '@/components/pages/ru/Promos'
 import RuHost from '@/components/pages/ru/Host'
 
@@ -123,6 +124,11 @@ export default new Router({
       path: '/ru/extra-curricular',
       name: 'RU-Extra-curricular',
       component: RuExtraCurricular
+    },
+    {
+      path: '/ru/teaching-practice',
+      name: 'RU-Teaching-practice',
+      component: RuTeachingPractice
     },
     {
       path: '/ru/what-to-do',

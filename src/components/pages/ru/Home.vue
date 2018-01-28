@@ -11,7 +11,7 @@
               <div class="justices-img-background"></div>
               <div class="justics-text">
                 <div class="txt">
-                  <h1>УЧИТЕ РУССКИЙ В РОССИИ</h1>
+                  <h1 class="main-heading">УЧИТЕ РУССКИЙ В РОССИИ</h1>
                 </div>
               </div>
             </div>
@@ -52,28 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-12">
-              <ul class="w-list">
-                <li>
-                  <span class="count-4">founded in 2008</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">students from several British universities</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">students of&nbsp;all ages from&nbsp;&gt;15&nbsp;countries</span>
-                  <em class="one"></em>
-                </li>
-                <li>
-                  <span class="count-4">2018&nbsp;&mdash; celebrating 10&nbsp;years of&nbsp;work</span>
-                  <em class="one"></em>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <timeline :data="timelineData"/>
         </section>
       </div>
     </div>
@@ -81,9 +60,9 @@
     <div class="page-section">
       <div class="col-sm-12 col-xs-12 full-width-image-block">
         <div class="full-width-holder">
-          <strong class="heading">A wide range of courses</strong>
-          
-          <span class="feel-free">Have any questions? Feel free to contact us!</span>
+          <strong class="heading">Разнообразные курсы</strong>
+
+          <span class="feel-free">Есть вопросы? Свяжитесь с нами!</span>
           <span class="tel">email:
             <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a>
           </span>
@@ -104,7 +83,7 @@
         <div class="row">
           <section class="celebrate-ten-years">
             <div class="col-xs-12 heading-holder">
-              <h1>В честь 10-летнего юбилея нашего центра мы предоставляем бесплатную помощь в оформлении визы!</h1>
+              <h2>В честь 10-летнего юбилея нашего центра мы предоставляем бесплатную помощь в оформлении визы!</h2>
               <p>
                 Приведите друга и получите скидку 10% на обучение!* <br/>
                 *В случае бронирования курса Вашим другом.
@@ -137,6 +116,7 @@
   import LatestNews from './Home/LatestNews'
   import StudentsQuotes from './Home/StudentsQuotes'
   import OurCoursesComponent from './Home/OurCoursesComponent'
+  import Timeline from '../../shared/Home/Timeline'
 
   export default {
     name: 'home',
@@ -144,13 +124,28 @@
       FormMap,
       LatestNews,
       StudentsQuotes,
-      OurCoursesComponent
+      OurCoursesComponent,
+      Timeline
     },
     data () {
-      return {}
+      return {
+        timelineData: [
+          'Центр основан в 2008',
+          'Студенты из нескольких британских университетов',
+          'Студенты всех возрастов из&nbsp;>15&nbsp;стран',
+          '2018 — 10 лет работы'
+        ]
+      }
     }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style></style>
+<style scoped>
+  @media (max-width: 500px) {
+    h1.main-heading {
+      font-size: 21px;
+      padding-top: 20px;
+    }
+  }
+</style>
