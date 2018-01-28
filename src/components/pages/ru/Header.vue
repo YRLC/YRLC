@@ -66,6 +66,10 @@ export default {
     display: flex;
   }
 
+  #header2 .navbar-default .navbar-nav > li > a {
+    text-transform: none;
+  }
+
   @media only screen and (max-width: 767px) {
     .nav.navbar-nav {
       background-color: rgb(240, 240, 240);
