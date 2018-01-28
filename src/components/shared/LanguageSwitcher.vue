@@ -22,11 +22,9 @@
 </script>
 
 <style scoped>
-  button {
+  .language-switcher {
     margin: 0;
     padding: 0;
-  }
-  .language-switcher {
     position: fixed;
     top: 100px;
     left: 0;
@@ -34,7 +32,13 @@
     width: 42px;
     border: 1px solid #000;
     cursor: pointer;
+    opacity: 0.3;
   }
+
+  .language-switcher:hover {
+    opacity: 1;
+  }
+
   .language-switcher img {
     width: 40px;
   }
