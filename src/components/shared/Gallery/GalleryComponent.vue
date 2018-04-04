@@ -53,48 +53,27 @@
 </template>
 
 <script>
+  const galleryLength = 61
+
+  const imagesArray = Array.apply(null, Array(galleryLength))
+
+  const rows = imagesArray
+    .map((x, i) => `gallery_${i + 1}`)
+    .reverse()
+    .reduce((memo, value, index) => {
+      if (index % 9 === 0 && index !== 0) memo.push([])
+      memo[memo.length - 1].push(value)
+      return memo
+    }, [[]])
+    .map(images => ({ active: false, images }))
+
+  rows[0].active = true
+
   export default {
     name: 'gallery-component',
     data () {
       return {
-        rows: [
-          {
-            active: true,
-            images: [
-              'gallery_1',
-              'gallery_2',
-              'gallery_3',
-              'gallery_4',
-              'gallery_5',
-              'gallery_6',
-              'gallery_7',
-              'gallery_8',
-              'gallery_9'
-            ]
-          },
-          {
-            active: false,
-            images: [
-              'gallery_10',
-              'gallery_11',
-              'gallery_12',
-              'gallery_13',
-              'gallery_14',
-              'gallery_15',
-              'gallery_16',
-              'gallery_17',
-              'gallery_18'
-            ]
-          },
-          {
-            active: false,
-            images: [
-              'gallery_19',
-              'gallery_20',
-              'gallery_21'
-            ]
-          }
-        ]
+        rows
       }
     }
   }

@@ -19,24 +19,12 @@
               <h3>Group Courses (all 18 weeks in length)</h3>
               <ul>
                 <li>
-                  2016 Spring Course: <br>
-                  - 22nd February - 24th June  (Date of arrival 20th February. Spring break 4th April to 10th April)
+                  2018 Autumn Courses: <br>
+                  - August, 27 - December, 23 (Autumn break - October, 22-28)
                 </li>
                 <li>
-                  2016 Autumn Courses: <br>
-                  - 22nd August - 24th December  (Date of arrival 20th August. Autumn break 3rd October to 9th October)
-                </li>
-                <li>
-                  2017 Spring Course: <br>
-                  - 20th February - 24th June  (Date of arrival 19th February. Spring break 3rd April to 9th April)
-                </li>
-                <li>
-                  2017 Autumn Courses: <br>
-                  - 21st August - 22nd December  (Date of arrival 19th August. Autumn break 2nd October to 8th October)
-                </li>
-                <li>
-                  2018 Spring Course: <br>
-                  - 19th February - 24th June  (Date of arrival 17th February. Spring break 2nd April to 8th April)
+                  2019 Spring Course: <br>
+                  - February, 18 - June,16 (Spring break - April, 15 - 21)
                 </li>
               </ul>
 

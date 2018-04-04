@@ -5,7 +5,7 @@
         <section class="latest-news post yellow">
           <div class="col-xs-12 heading-holder">
             <h1>our latest news</h1>
-            <p>Looking forward to meeting our students from the universities of Bristol and Exeter this winter!</p>
+            <!--<p>Looking forward to meeting our students from the universities of Bristol and Exeter this winter!</p>-->
           </div>
         </section>
       </div>
