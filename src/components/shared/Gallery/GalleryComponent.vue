@@ -55,9 +55,7 @@
 <script>
   const galleryLength = 61
 
-  const imagesArray = Array.apply(null, Array(galleryLength))
-
-  const rows = imagesArray
+  const rows = Array.apply(null, Array(galleryLength))
     .map((x, i) => `gallery_${i + 1}`)
     .reverse()
     .reduce((memo, value, index) => {
