@@ -8,7 +8,7 @@
               <section>
                 <div class="col-xs-12" style="padding: 64px 0 32px;">
                   <h1>Документы</h1>
-                  <p>
+                  <!--<p>
                     <a href="https://drive.google.com/file/d/15Q9gUH0EDkmmfN2Up6IWno5HXYMkLNdC/view?usp=sharing" target="_blank" rel="noopener noreferer">Решение по изменению наименования организации и утверждению и регистрации Устава образовательной организации</a>
                   </p>
                   <p>
@@ -46,7 +46,7 @@
                   </p>
                   <p>
                     <a href="" target="_blank" rel="noopener noreferer">Отчеты об исполнении предписаний</a> !
-                  </p>
+                  </p>-->
                 </div>
               </section>
             </div>
