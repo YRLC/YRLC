@@ -18,16 +18,17 @@ import Promos from '@/components/pages/en/Promos'
 // Russian
 
 import RuHome from '@/components/pages/ru/Home'
-import RuCourses from '@/components/pages/ru/Courses'
-import RuPrices from '@/components/pages/ru/Prices'
-import RuExtraCurricular from '@/components/pages/ru/ExtraCurricular'
-import RuWhatToDo from '@/components/pages/ru/WhatToDo'
-import RuInteractiveCourses from '@/components/pages/ru/InteractiveCourses'
-import RuGallery from '@/components/pages/ru/Gallery'
-import RuStudentsSay from '@/components/pages/ru/StudentsSay'
-import RuTeachingPractice from '@/components/pages/ru/TeachingPractice'
-import RuPromos from '@/components/pages/ru/Promos'
-import RuHost from '@/components/pages/ru/Host'
+import RuInformation from '@/components/pages/ru/Information'
+import RUGoverning from '@/components/pages/ru/Governing'
+import RUDocuments from '@/components/pages/ru/Documents'
+import RUEducation from '@/components/pages/ru/Education'
+import RUStandards from '@/components/pages/ru/Standards'
+import RUTeachers from '@/components/pages/ru/Teachers'
+import RUEquipment from '@/components/pages/ru/Equipment'
+import RUScholarships from '@/components/pages/ru/Scholarships'
+import RUPaidEducation from '@/components/pages/ru/PaidEducation'
+import RUFinancial from '@/components/pages/ru/Financial'
+import RUVacantSeats from '@/components/pages/ru/VacantSeats'
 
 Vue.use(Router)
 
@@ -111,54 +112,59 @@ export default new Router({
       component: RuHome
     },
     {
-      path: '/ru/courses',
-      name: 'RU-Courses',
-      component: RuCourses
+      path: '/ru/information',
+      name: 'RU-Information',
+      component: RuInformation
     },
     {
-      path: '/ru/prices',
-      name: 'RU-Prices',
-      component: RuPrices
+      path: '/ru/governing',
+      name: 'RU-Governing',
+      component: RUGoverning
     },
     {
-      path: '/ru/extra-curricular',
-      name: 'RU-Extra-curricular',
-      component: RuExtraCurricular
+      path: '/ru/documents',
+      name: 'RU-Documents',
+      component: RUDocuments
     },
     {
-      path: '/ru/teaching-practice',
-      name: 'RU-Teaching-practice',
-      component: RuTeachingPractice
+      path: '/ru/education',
+      name: 'RU-Education',
+      component: RUEducation
     },
     {
-      path: '/ru/what-to-do',
-      name: 'RU-What-to-do',
-      component: RuWhatToDo
+      path: '/ru/standards',
+      name: 'RU-Standards',
+      component: RUStandards
     },
     {
-      path: '/ru/interactive-courses',
-      name: 'RU-Interactive-courses',
-      component: RuInteractiveCourses
+      path: '/ru/teachers',
+      name: 'RU-Teachers',
+      component: RUTeachers
     },
     {
-      path: '/ru/gallery',
-      name: 'RU-Gallery',
-      component: RuGallery
+      path: '/ru/equipment',
+      name: 'RU-Equipment',
+      component: RUEquipment
     },
     {
-      path: '/ru/students-say',
-      name: 'RU-Students-say',
-      component: RuStudentsSay
+      path: '/ru/scholarships',
+      name: 'RU-Scholarships',
+      component: RUScholarships
     },
     {
-      path: '/ru/promos',
-      name: 'RU-Promos',
-      component: RuPromos
+      path: '/ru/paideducation',
+      name: 'RU-Paid-Education',
+      component: RUPaidEducation
     },
     {
-      path: '/ru/host',
-      name: 'RU-Host',
-      component: RuHost
+      path: '/ru/financial',
+      name: 'RU-Financial',
+      component: RUFinancial
+    },
+    {
+      path: '/ru/vacantseats',
+      name: 'RU-Vacant-Seats',
+      component: RUVacantSeats
     },
     {
       path: '/en/:any',

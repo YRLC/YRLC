@@ -18,36 +18,43 @@
           <ul class="nav navbar-nav">
             <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Home' }"><a>Главная</a></router-link>
             <li>
-              <a class="no-click">Курсы и цены</a>
-              <ul class="drop-down d-7">
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Courses' }">
-                  <a>Курсы</a>
+              <a class="no-click">Сведения об образовательной организации</a>
+              <ul class="drop-down d-7" style="width: 500px;">
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Information' }">
+                  <a>Основные сведения</a>
                 </router-link>
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Prices' }">
-                  <a>Цены</a>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Governing' }">
+                  <a>Структура и органы управления образовательной организации.</a>
                 </router-link>
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Extra-curricular' }">
-                  <a>Внеклассные занятия</a>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Documents' }">
+                  <a>Документы</a>
                 </router-link>
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Teaching-practice' }">
-                  <a>Практика преподавания</a>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Education' }">
+                  <a>Образование</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Standards' }">
+                  <a>Образовательные стандарты</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Teachers' }">
+                  <a>Руководство. Педагогический (научно-педагогический) состав</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Equipment' }">
+                  <a>Материально-техническое обеспечение и оснащенность образовательного процесса</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Scholarships' }">
+                  <a>Стипендии и иные виды образовательной поддержки</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Paid-Education' }">
+                  <a>Платные образовательные услуги</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Financial' }">
+                  <a>Финансово-хозяйственная деятельность (финансовое обеспечение за счет бюджета)</a>
+                </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Vacant-Seats' }">
+                  <a>Вакантные места для приема</a>
                 </router-link>
               </ul>
             </li>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-What-to-do' }"><a>Чем заняться в Ярославле?</a></router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Gallery' }"><a>Галерея</a></router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Students-say' }"><a>Отзывы</a></router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Promos' }">
-              <a>Акции</a>
-              <ul class="drop-down d-7">
-                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Interactive-courses' }">
-                  <a>Специальные интерактивные курсы</a>
-                </router-link>
-              </ul>
-            </router-link>
-            <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Host' }">
-              <a>Заявка на приём иностранца</a>
-            </router-link>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
