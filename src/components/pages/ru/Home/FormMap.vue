@@ -6,7 +6,6 @@
         <section class="form-section">
           <div class="col-sm-6 col-xs-12 black pull-right">
             <div class="fill-form">
-              <span class="heading">Подать заявку</span>
               <span>
                 Заполните
                 <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">форму</a>,

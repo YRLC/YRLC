@@ -80,30 +80,6 @@
       </div>
     </div>
 
-    <div class="page-section white">
-      <div class="container">
-        <div class="row">
-          <section class="celebrate-ten-years">
-            <div class="col-xs-12 heading-holder">
-              <h2>To celebrate 10 years of our centre we offer free visa application assistance!</h2>
-              <p>
-                A 10% discount for inviting one of your friends to do our courses!* <br/>
-                *In case your friend books a course.
-              </p>
-            </div>
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/1-tTkXOVWBw"
-              frameborder="0"
-              gesture="media"
-              allow="encrypted-media"
-              allowfullscreen></iframe>
-          </section>
-        </div>
-      </div>
-    </div>
-
     <our-courses-component/>
 
     <students-quotes/>
@@ -135,7 +111,7 @@
           'founded in 2008',
           'students from several British universities',
           'students of&nbsp;all ages from&nbsp;&gt;15&nbsp;countries',
-          '2018&nbsp;&mdash; celebrating 10&nbsp;years of&nbsp;work'
+          `${new Date().getFullYear()}`
         ]
       }
     }
