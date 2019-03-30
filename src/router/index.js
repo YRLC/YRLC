@@ -32,11 +32,12 @@ import RUVacantSeats from '@/components/pages/ru/VacantSeats'
 
 Vue.use(Router)
 
+const russian = false
+
 export default new Router({
-  mode: 'history',
   routes: [
     {
-      path: '/',
+      path: russian ? '/en/' : '/',
       name: 'Home',
       component: Home
     },
@@ -107,72 +108,72 @@ export default new Router({
     },
     // RU
     {
-      path: '/ru/',
+      path: russian ? '/' : '/ru/',
       name: 'RU-Home',
       component: RuHome
     },
     {
-      path: '/ru/information',
+      path: `${russian ? '/' : '/ru/'}information`,
       name: 'RU-Information',
       component: RuInformation
     },
     {
-      path: '/ru/governing',
+      path: `${russian ? '/' : '/ru/'}governing`,
       name: 'RU-Governing',
       component: RUGoverning
     },
     {
-      path: '/ru/documents',
+      path: `${russian ? '/' : '/ru/'}documents`,
       name: 'RU-Documents',
       component: RUDocuments
     },
     {
-      path: '/ru/education',
+      path: `${russian ? '/' : '/ru/'}education`,
       name: 'RU-Education',
       component: RUEducation
     },
     {
-      path: '/ru/standards',
+      path: `${russian ? '/' : '/ru/'}standards`,
       name: 'RU-Standards',
       component: RUStandards
     },
     {
-      path: '/ru/teachers',
+      path: `${russian ? '/' : '/ru/'}teachers`,
       name: 'RU-Teachers',
       component: RUTeachers
     },
     {
-      path: '/ru/equipment',
+      path: `${russian ? '/' : '/ru/'}equipment`,
       name: 'RU-Equipment',
       component: RUEquipment
     },
     {
-      path: '/ru/scholarships',
+      path: `${russian ? '/' : '/ru/'}scholarships`,
       name: 'RU-Scholarships',
       component: RUScholarships
     },
     {
-      path: '/ru/paideducation',
+      path: `${russian ? '/' : '/ru/'}paideducation`,
       name: 'RU-Paid-Education',
       component: RUPaidEducation
     },
     {
-      path: '/ru/financial',
+      path: `${russian ? '/' : '/ru/'}financial`,
       name: 'RU-Financial',
       component: RUFinancial
     },
     {
-      path: '/ru/vacantseats',
+      path: `${russian ? '/' : '/ru/'}vacantseats`,
       name: 'RU-Vacant-Seats',
       component: RUVacantSeats
     },
     {
       path: '/en/:any',
-      redirect: '/'
+      redirect: russian ? '/en/' : '/'
     },
     {
       path: '/ru/:any',
-      redirect: '/ru/'
+      redirect: russian ? '/' : '/ru/'
     },
     {
       path: '/:any',

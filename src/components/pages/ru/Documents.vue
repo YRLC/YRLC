@@ -8,45 +8,46 @@
               <section>
                 <div class="col-xs-12" style="padding: 64px 0 32px;">
                   <h1>Документы</h1>
-                  <!--<p>
-                    <a href="https://drive.google.com/file/d/15Q9gUH0EDkmmfN2Up6IWno5HXYMkLNdC/view?usp=sharing" target="_blank" rel="noopener noreferer">Решение по изменению наименования организации и утверждению и регистрации Устава образовательной организации</a>
+                  <p>
+                    <a href="/static/docs/Решение%20о%20смене%20названия.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Решение по изменению наименования организации и утверждению и регистрации Устава образовательной организации</a>
                   </p>
                   <p>
-                    <a href="https://drive.google.com/file/d/12kugHRGmu2uVNmVdR_MpYnILLUOdli2q/view?usp=sharing" target="_blank" rel="noopener noreferer">Устав образовательной организации</a>
+                    <a href="/static/docs/Устав.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Устав образовательной организации</a>
                   </p>
                   <p>
-                    <a href="https://drive.google.com/file/d/1jABdSoEKNZhfzkySQ_sjxVg-os2ReeBt/view?usp=sharing" target="_blank" rel="noopener noreferer">Лицензия на осуществление образовательной деятельности ( с приложениями)</a>
+                    <a href="/static/docs/Лицензия.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Лицензия на осуществление образовательной деятельности (с приложениями)</a>
                   </p>
                   <p>
-                    <a href="https://drive.google.com/file/d/1nbP3d_Fyiupn6iv4DOILUptKQaCN1TYf/view?usp=sharing" target="_blank" rel="noopener noreferer">Свидетельство о регистрации некоммерческой организации</a>
+                    <a href="/static/docs/Свидетельство.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Свидетельство о регистрации некоммерческой организации</a>
+                  </p>
+                  <h4 style="margin-top: 24px; margin-bottom: 16px">Локальные нормативные акты</h4>
+                  <p>
+                    <a href="/static/docs/Правила%20внутреннего%20распорядка%20часть%201_organized_compressed.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Правила внутреннего трудового распорядка и коллективного договора</a>
                   </p>
                   <p>
-                    <a href="https://drive.google.com/file/d/12wOzN68EpXPcSkyaLzypQlvxg1zGxPBT/view?usp=sharing" target="_blank" rel="noopener noreferer">Свидетельство о постановке на учёт Российской организации в налоговом органе</a>
+                    <a href="/static/docs/Положение%20об%20организации%20образовательного%20процесса.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Положение об организации учебного процесса</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Локальные нормативные акты</a> !
+                    <a href="/static/docs/Положение%20о%20языках%20образования.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Положение о языках образования</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Правила внутреннего распорядка обучающихся</a> !
+                    <a href="/static/docs/Положение%20о%20правилах%20приема%20и%20отчисления.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Положение о правилах приема и отчисления учащихся</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Правила внутреннего трудового распорядка и коллективного договора</a> !
+                    <a href="/static/docs/Положение%20о%20нормах%20профессиональной%20этики_compressed.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Положение о нормах профессиональной этики</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Отчет о результатах самообследования</a> !
+                    <a href="/static/docs/договор_2019.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец договора об оказании платных образовательных услуг</a>
                   </p>
                   <p>
-                    <a href="https://drive.google.com/file/d/1bfC8w6twJerb-rkaCc0p0SPZqQ6eQfiM/view?usp=sharing" target="_blank" rel="noopener noreferer">Образец договора об оказании платных образовательных услуг</a>
+                    <a href="/static/docs/договор_2019_пример.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец заполнения договора об оказании платных услуг</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Документ об утверждении стоимости обучения по каждой образовательной программе</a> !
+                    <a href="/static/docs/Документы%20об%20утверждении%20стоимости%20обучения.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Документ об утверждении стоимости обучения по каждой образовательной программе</a>
                   </p>
                   <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования</a> !
+                    <a href="/static/docs/Предписания_органов.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Предписания органов, осуществляющих государственный контроль (надзор) в сфере образования</a>
                   </p>
-                  <p>
-                    <a href="" target="_blank" rel="noopener noreferer">Отчеты об исполнении предписаний</a> !
-                  </p>-->
                 </div>
               </section>
             </div>
