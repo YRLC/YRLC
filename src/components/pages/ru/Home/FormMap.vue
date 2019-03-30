@@ -6,11 +6,7 @@
         <section class="form-section">
           <div class="col-sm-6 col-xs-12 black pull-right">
             <div class="fill-form">
-              <span>
-                Заполните
-                <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">форму</a>,
-                чтобы подать заявку на обучение:
-                <a href="https://docs.google.com/forms/d/1DsK183f1L2Uya2NCxt_aTW15cg3F8RmdhVrqXggWv7A/edit?usp=sharing" target="_blank">goo.gl/gosdHb</a></span>
+              <span>Свяжитесь с нами <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
               <a href="https://goo.gl/maps/apBVKtUCwJT2" target="_blank" class="address-link">
                 <address class="address">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -24,7 +20,6 @@
                   </p>
                 </address>
               </a>
-              <span>Свяжитесь с нами <a href="mailto:info@yrlccentre.com">info@yrlccentre.com</a></span>
               <span><a href="https://www.facebook.com/yaroslavlrussian/">Facebook</a></span>
               <span><a href="https://www.youtube.com/channel/UCledpmqihk4dTMQoXsT691w">Youtube</a></span>
             </div>

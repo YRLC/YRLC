@@ -20,6 +20,8 @@
   import RuFooter from './components/pages/ru/Footer'
   import LanguageSwitcher from './components/shared/LanguageSwitcher'
 
+  const russian = false
+
   export default {
     name: 'app',
     components: {
@@ -31,7 +33,9 @@
     },
     data () {
       return {
-        pageLanguage: window.location.pathname.includes('/ru') ? 'ru' : 'en'
+        pageLanguage: russian
+          ? window.location.pathname.includes('/en') ? 'en' : 'ru'
+          : window.location.pathname.includes('/ru') ? 'ru' : 'en'
       }
     },
     methods: {

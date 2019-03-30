@@ -15,9 +15,18 @@
                   </p>
 
                   <h3>Осуществляемые образовательные программы:</h3>
-                  Программа “Лабиринты русской лингвистики” - https://drive.google.com/file/d/1zSiijYiQG3_B5gwmMJ4l-o6OfOoO0veQ/view?usp=sharing <br>
-                  Программа “Юный Лингвист - знаток русского языка”- https://drive.google.com/file/d/1AlISj3dZ4fhB0hColsFJ2eksCwrFb3Qe/view?usp=sharing <br>
-
+                  <p>
+                    <a href="/static/docs/Программа_лабиринты.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Лабиринты русской лингвистики”</a>
+                  </p>
+                  <p>
+                    <a href="/static/docs/Программа_юный_лингвист.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Юный Лингвист — знаток русского языка”</a>
+                  </p>
+                  <p>
+                    <a href="/static/docs/Пояснительная%20записка%20к%20программе%20РКИ.doc" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Русский как иностранный”</a>
+                  </p>
+                  <p>
+                    <a href="/static/docs/Программа_мои_приключения.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Мои приключения в стране английского языка”</a>
+                  </p>
 
                   <h3>Школа английского языка при ЯЦРЯ предлагает:</h3>
                   <h4>1. Курсы английского языка для начинающих (для детей 6-7,7-8, 8-9 лет).</h4>
