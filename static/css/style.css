@@ -4736,6 +4736,7 @@ blockquote small strong {
   content: "";
   position: absolute;
   background: url(../images/icon-40.png) no-repeat;
+  z-index: -1;
 }
 
 .welcome.yellow .yellow-2:after {

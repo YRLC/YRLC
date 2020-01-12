@@ -7,7 +7,7 @@
             <div class="col-xs-12 heading-area">
               <h1>WHAT OUR STUDENT SAY</h1>
             </div>
-            <video-slider-component/>
+            <video-slider-component />
           </div>
         </div>
       </section>
