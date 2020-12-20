@@ -71,7 +71,7 @@
                   <td>
                     Spring or autumn; for university students or individuals
                   </td>
-                  <td>€ 1400</td>
+                  <td>€ 1600</td>
                   <td>€ 250</td>
                   <td rowspan="2">
                     <em>If staying for 2 terms you can leave your belongings at your homestay free of charge for the period you are on Christmas break at home.</em>
@@ -86,7 +86,7 @@
                   <td>
                     Spring or autumn; for university students or individuals
                   </td>
-                  <td>€ 2500</td>
+                  <td>€ 3200</td>
                   <td>€ 300</td>
                 </tr>
                 </tbody>
@@ -99,7 +99,7 @@
           <section>
             <div class="col-xs-12">
               <p>
-                If you are doing an individual course, one lesson costs 900 rubles and every next lesson during the day is 100 rubles less! (1st lesson - 900 r, 2nd lesson - 800 r, 3d lesson - 700 r, 4th lesson - 600 r, 5th lesson - 500 r).
+                If you are doing an individual course, one lesson costs 1000 roubles.
               </p>
             </div>
           </section>
