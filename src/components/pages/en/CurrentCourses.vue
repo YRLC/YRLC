@@ -16,41 +16,21 @@
               <p>
                 Please <a href="mailto:info@yrlccentre.com">contact us</a> for details.
               </p>
-              <h3>Group Courses (all 18 weeks in length)</h3>
-              <ul>
+              <h3>Group Courses (17 weeks)</h3>
+              <video src="static/videos/Language-Course.mp4" autoplay loop></video>
+
+              <h4>A combined course consists of 2 parts:</h4>
+              <ol>
                 <li>
-                  2018 Autumn Courses: <br>
-                  - August, 27 - December, 23 (Autumn break - October, 22-28)
+                  <h5>A Preparation course “Russian Bootcamp” (5 weeks online, 15 hours per week).</h5>
+                  <p>The course introduces the students to the basics of communication in Russian and is adjusted to the students’ current level. Students will have speaking and grammar classes,learn about culture and traditions. It is a chance to prepare for the rest of the immersive course in Russia.</p>
                 </li>
                 <li>
-                  2019 Spring Course: <br>
-                  - February, 18 - June,16 (Spring break - April, 15 - 21)
+                  <h5>An Intensive Russian course “Hit the Ground Running” ( 12 weeks, 20 hours per week).</h5>
+                  <p>Students get a chance to immerse themselves into the language during their stay in Russia. They stay with Russian host families  and can participate in a number of extracurricular activities and trips they can choose from.</p>
+                  <p>Extracurricular activities we offer: painting Russian dolls, Russian singing classes, Russian classes in local museums, ceramics workshops where students can make their own plates, cups, etc., cooking masterclasses (Russian, Georgian, Uzbek cuisine, etc.) and many more!</p>
                 </li>
-              </ul>
-
-
-              <h4>Note:</h4>
-              <p>
-                All 18 week group courses have 16 studying weeks and 2 weeks off (please note that there are no longer any 13 week group courses available).
-              </p>
-              <p>All the students are offered to obtain Multi-Entry Visas while they study at YRLC.</p>
-              <p>
-                This gives them an opportunity to travel around Russia or go home or on holiday during their breaks.
-              </p>
-              <p>
-                The day of arrival of every course is Saturday, Sunday is a Day with a Family (to explore things around) and Monday is the beginning of the course.
-              </p>
-              <p>
-                Students must buy their own travel tickets for the appropriate date, shown on the website, and inform YRLC about their travel arrangements so that any transfers from Moscow airport to Yaroslavl can be arranged.
-              </p>
-
-              <p>NOTE: Students from the same Universities are asked to organise their groups and fly all together.</p>
-              <p>
-                <a
-                  href="https://docs.google.com/document/d/12dOTahZTFqzzFKgUDCHv0EAZeSV5PbzHzJoMyQEZNKQ/edit?usp=sharing ">
-                  An approximate schedule for an 18-week course of your Year Abroad
-                </a>
-              </p>
+              </ol>
 
             </div>
           </section>
@@ -80,5 +60,12 @@
   ul li {
     padding-bottom: 7px;
     line-height: 1.4;
+  }
+
+  ol li h5 {
+    font-weight: bold;
+  }
+  video {
+    max-width: 100%;
   }
 </style>

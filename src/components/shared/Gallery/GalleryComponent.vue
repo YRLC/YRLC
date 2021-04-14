@@ -18,14 +18,6 @@
                              alt="image" class="hover-img">
                       </a>
                     </li>
-                    <!--<li>
-                      <a href="#">
-                        <img src="/static/images/icon-58.png" width="16" height="16"
-                             alt="image" class="normal">
-                        <img src="/static/images/icon-59.png" width="16" height="16"
-                             alt="image" class="hover-img">
-                      </a>
-                    </li>-->
                   </ul>
                 </div>
               </div>
@@ -53,10 +45,10 @@
 </template>
 
 <script>
-  const galleryLength = 61
+  const galleryLength = 74
 
   const rows = Array.apply(null, Array(galleryLength))
-    .map((x, i) => `gallery_${i + 1}`)
+    .map((x, i) => `gallery_${i}`)
     .reverse()
     .reduce((memo, value, index) => {
       if (index % 9 === 0 && index !== 0) memo.push([])
