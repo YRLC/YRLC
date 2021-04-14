@@ -10,85 +10,40 @@
               <table class="p-table">
                 <tr>
                   <th>Course</th>
-                  <th>Dates</th>
                   <th>Course Fee</th>
-                  <th>* Admin</th>
                   <th>* Homestay</th>
                 </tr>
                 <tbody>
                 <tr>
                   <td>
-                    <b>Learn and travel school</b> <br> <br>
-
-                    (4 days a week, 3 hours a day of classes, plus after class activities 2-3 hours) <br>
-                    Flexible schedule
+                    <b>Individual course</b>
                   </td>
-                  <td>
-                    Summer, Christmas, Easter holidays; open any dates; usually 3-4 weeks <br><br>
-
-                    Christmas break - Russian Winter Fun (downhill and cross-country skiing, skating, winter sauna with an ice hole) <br><br>
-
-                    Summer break - Summer Russian Fun (day trips to the towns of the Russian Golden Ring every other day, paintball, “going ape”, etc.)
-                  </td>
-                  <td>€ 400 per week</td>
-                  <td>€ 300 including travel expenses</td>
-                  <td>
-                    1000 rubles per day - This includes Internet access, and 3 meals a day <br><br>
-                    <em>NOTE: laundry is provided once per week</em> <br>
+                  <td>1000 roubles per lesson (45 minutes)</td>
+                  <td rowspan="4">
+                    1000 roubles per day, 3 meals included
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <b>1 - 3 weeks</b> <br> <br>
-
-                    (intensive 20 hours a week / 4 hours a day) <br>
-                    4&nbsp;hours&nbsp;&mdash; grammar, <br>
-                    6&nbsp;hours&nbsp;&mdash; Conversation + Phonetics, <br>
-                    4&nbsp;hours&nbsp;&mdash; English-Russian Translation and Syntax, <br>
-                    4&nbsp;hours&nbsp;&mdash; Russian Literature, <br>
-                    2&nbsp;hours&nbsp;&mdash; Mass Media <br>
+                    <b>Combined group course (17 weeks)</b>
                   </td>
-                  <td>
-                    Any time during the year; you can join a group at your level (beginners, intermediate, professional) <br> <br>
-                    - or - <br> <br>
-                    have individual classes
-
-                  </td>
-                  <td>
-                    € 300 per week <br> <br>
-                    - or - <br> <br>
-                    900 rubles per academic hour (i.e. 50 minutes)
-                  </td>
-                  <td>€ 200 (including taxi)</td>
-                  <td></td>
+                  <td>1600 EUR</td>
                 </tr>
                 <tr>
                   <td>
-                    <b>18 weeks for Year Abroad students</b> <br> <br>
-
-                    (1 term / semester) <br>
+                    <b>Summer / Winter Russian School</b>
                   </td>
-                  <td>
-                    Spring or autumn; for university students or individuals
-                  </td>
-                  <td>€ 1600</td>
-                  <td>€ 250</td>
-                  <td rowspan="2">
-                    <em>If staying for 2 terms you can leave your belongings at your homestay free of charge for the period you are on Christmas break at home.</em>
-                  </td>
+                  <td>The cost of 1 week of the intensive course is 80 EUR (4 hours per day, 5 times a week).
+                    <br><br>
+                    Extracurricular activities and excursions:  25 EUR for a 2-week course and 50 EUR for a 3 or 4-week course</td>
                 </tr>
                 <tr>
                   <td>
-                    <b>36 weeks</b> <br> <br>
-
-                    (2 terms / semesters) <br>
+                    <b>Individually organised group courses</b>
                   </td>
-                  <td>
-                    Spring or autumn; for university students or individuals
-                  </td>
-                  <td>€ 3200</td>
-                  <td>€ 300</td>
+                  <td>The prices is discussed depending on the number of students in the group</td>
                 </tr>
+
                 </tbody>
               </table>
             </div>
