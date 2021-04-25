@@ -41,7 +41,7 @@
                   <td>
                     <b>Individually organised group courses</b>
                   </td>
-                  <td>The prices is discussed depending on the number of students in the group</td>
+                  <td>The price is discussed depending on the number of students in the group</td>
                 </tr>
 
                 </tbody>
@@ -55,6 +55,9 @@
             <div class="col-xs-12">
               <p>
                 If you are doing an individual course, one lesson costs 1000 roubles.
+              </p>
+              <p>
+                We offer visa assistance. The visa admin fee is not included in the cost of the course and is paid for separately.
               </p>
             </div>
           </section>
