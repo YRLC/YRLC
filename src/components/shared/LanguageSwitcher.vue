@@ -27,7 +27,7 @@
     padding: 0;
     position: fixed;
     top: 100px;
-    left: 0;
+    left: 5px;
     z-index: 1;
     width: 42px;
     border: 1px solid #000;
