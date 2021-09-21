@@ -3,11 +3,13 @@
     <main>
       <div id="wrapper">
         <Header v-if="pageLanguage === 'en'"/>
-        <RuHeader v-else="pageLanguage === 'ru'"/>
+        <RuHeader v-else-if="pageLanguage === 'ru'"/>
+
         <language-switcher :pageLanguage="pageLanguage" :changeLanguage="changeLanguage"/>
+        <VisuallyImpairedButton />
         <router-view></router-view>
         <Footer v-if="pageLanguage === 'en'"/>
-        <RuFooter v-else="pageLanguage === 'ru'"/>
+        <RuFooter v-else-if="pageLanguage === 'ru'"/>
       </div>
     </main>
   </div>
@@ -19,6 +21,7 @@
   import RuHeader from './components/pages/ru/Header'
   import RuFooter from './components/pages/ru/Footer'
   import LanguageSwitcher from './components/shared/LanguageSwitcher'
+  import VisuallyImpairedButton from './components/shared/VisuallyImpairedButton'
 
   const russian = false
 
@@ -29,7 +32,8 @@
       Footer,
       RuHeader,
       RuFooter,
-      LanguageSwitcher
+      LanguageSwitcher,
+      VisuallyImpairedButton
     },
     data () {
       return {
