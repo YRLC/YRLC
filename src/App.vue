@@ -5,8 +5,8 @@
         <Header v-if="pageLanguage === 'en'"/>
         <RuHeader v-else-if="pageLanguage === 'ru'"/>
 
+        <VisuallyImpairedButton :language="pageLanguage" />
         <language-switcher :pageLanguage="pageLanguage" :changeLanguage="changeLanguage"/>
-        <VisuallyImpairedButton />
         <router-view></router-view>
         <Footer v-if="pageLanguage === 'en'"/>
         <RuFooter v-else-if="pageLanguage === 'ru'"/>
