@@ -26,17 +26,16 @@
     margin: 0;
     padding: 0;
     position: fixed;
-    top: 100px;
+    top: 200px;
     left: 5px;
-    z-index: 1;
+    z-index: 10;
     width: 42px;
-    border: 1px solid #000;
     cursor: pointer;
-    opacity: 0.3;
+    border: 1px solid #000;
   }
 
   .language-switcher:hover {
-    opacity: 1;
+    box-shadow: 0 0 5px 2px #000;
   }
 
   .language-switcher img {
