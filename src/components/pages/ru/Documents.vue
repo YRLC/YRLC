@@ -37,10 +37,10 @@
                     <a href="/static/docs/Положение%20о%20нормах%20профессиональной%20этики_compressed.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Положение о нормах профессиональной этики</a>
                   </p>
                   <p>
-                    <a href="/static/docs/договор_2019.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец договора об оказании платных образовательных услуг</a>
+                    <a href="/static/docs/dogovor_2021.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец договора об оказании платных образовательных услуг</a>
                   </p>
                   <p>
-                    <a href="/static/docs/договор_2019_пример.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец заполнения договора об оказании платных услуг</a>
+                    <a href="/static/docs/образец dogovor_2021.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Образец заполнения договора об оказании платных услуг</a>
                   </p>
                   <p>
                     <a href="/static/docs/Документы%20об%20утверждении%20стоимости%20обучения.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Документ об утверждении стоимости обучения по каждой образовательной программе</a>
