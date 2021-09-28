@@ -16,16 +16,16 @@
 
                   <h3>Осуществляемые образовательные программы:</h3>
                   <p>
-                    <a href="/static/docs/Программа_лабиринты.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Лабиринты русской лингвистики”</a>
+                    <a href="/static/docs/1_Программа_Лабиринты.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Лабиринты русской лингвистики”</a>
                   </p>
                   <p>
-                    <a href="/static/docs/Программа_юный_лингвист.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Юный Лингвист — знаток русского языка”</a>
+                    <a href="/static/docs/2_Программа_Юный_Лингвист.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Юный Лингвист — знаток русского языка”</a>
                   </p>
                   <p>
                     <a href="/static/docs/Пояснительная%20записка%20к%20программе%20РКИ.doc" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Русский как иностранный”</a>
                   </p>
                   <p>
-                    <a href="/static/docs/Программа_мои_приключения.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Мои приключения в стране английского языка”</a>
+                    <a href="/static/docs/3_Программа_Приключения.pdf" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Программа “Мои приключения в стране английского языка”</a>
                   </p>
 
                   <h3>Школа английского языка при ЯЦРЯ предлагает:</h3>
