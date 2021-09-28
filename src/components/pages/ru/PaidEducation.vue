@@ -9,7 +9,7 @@
                 <div class="col-xs-12" style="padding: 64px 0 32px;">
                   <h1>Платные образовательные услуги</h1>
                   <p>
-                    <a href="/static/docs/договор_2019_пример.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Пример заполнения договора со слушателем</a>
+                    <a href="/static/docs/образец dogovor_2021.docx" target="_blank" rel="noopener noreferer"><i class="fa fa-download" aria-hidden="true"></i> Пример заполнения договора со слушателем</a>
                   </p>
 
                   <p>
