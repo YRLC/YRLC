@@ -19,7 +19,7 @@
                     Оплата предоставляется на счет организации через систему “Сбербанк” по факту заключения договора.
                     <br>
                     Возможна дробная оплата, по семестрам, ежемесячная. <br>
-                    <b>150 рублей — академический час. (для групповых занятий)</b><br>
+                    <b>{{ costForHour }} рублей — академический час. (для групповых занятий)</b><br>
                     Организация вправе изменить цену на начало следующего учебного года. <br>
                   </p>
 
@@ -34,30 +34,30 @@
                         <tbody>
                         <tr>
                           <td>Английский для начинающих</td>
-                          <td>70</td>
-                          <td class="column-centered">10500</td>
+                          <td>{{ amountOfCoursesHours }}</td>
+                          <td class="column-centered">{{ costForCourses }}</td>
                         </tr>
                         <tr>
                           <td>Английский, разговорная речь</td>
-                          <td>70</td>
-                          <td class="column-centered">10500</td>
+                          <td>{{ amountOfCoursesHours }}</td>
+                          <td class="column-centered">{{ costForCourses }}</td>
                         </tr>
                         <tr>
                           <td>Юный лингвист - знаток русского языка</td>
-                          <td>70</td>
-                          <td class="column-centered">10500</td>
+                          <td>{{ amountOfCoursesHours }}</td>
+                          <td class="column-centered">{{ costForCourses }}</td>
                         </tr>
                         <tr>
                           <td>Лабиринты русской лингвистики</td>
-                          <td>70</td>
-                          <td class="column-centered">10500</td>
+                          <td>{{ amountOfCoursesHours }}</td>
+                          <td class="column-centered">{{ costForCourses }}</td>
                         </tr>
                         <tr>
                           <td>Русский язык как иностранный (один аспект - грамматика, СМИ, русская литература,
                             разговорная практика, синтаксис и перевод)
                           </td>
-                          <td>80</td>
-                          <td class="column-centered">12000</td>
+                          <td>{{ amountOfLastCourseHour }}</td>
+                          <td class="column-centered">{{ costForLastCourse }}</td>
                         </tr>
                         </tbody>
 
@@ -79,7 +79,19 @@
     name: 'paid-education',
     components: {},
     data () {
-      return {}
+      return {
+        costForHour: 200,
+        amountOfCoursesHours: 70,
+        amountOfLastCourseHour: 80
+      }
+    },
+    computed: {
+      costForCourses () {
+        return this.costForHour * this.amountOfCoursesHours
+      },
+      costForLastCourse () {
+        return this.costForHour * this.amountOfLastCourseHour
+      }
     }
   }
 </script>
