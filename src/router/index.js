@@ -29,6 +29,7 @@ import RUScholarships from '@/components/pages/ru/Scholarships'
 import RUPaidEducation from '@/components/pages/ru/PaidEducation'
 import RUFinancial from '@/components/pages/ru/Financial'
 import RUVacantSeats from '@/components/pages/ru/VacantSeats'
+import RUPartnership from '@/components/pages/ru/Partnership'
 
 Vue.use(Router)
 
@@ -166,6 +167,11 @@ export default new Router({
       path: `${russian ? '/' : '/ru/'}vacantseats`,
       name: 'RU-Vacant-Seats',
       component: RUVacantSeats
+    },
+    {
+      path: `${russian ? '/' : '/ru/'}partnership`,
+      name: 'RU-Partnership',
+      component: RUPartnership
     },
     {
       path: '/en/:any',
