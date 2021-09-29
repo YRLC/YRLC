@@ -77,7 +77,6 @@
 <script>
   export default {
     name: 'paid-education',
-    components: {},
     data () {
       return {
         costForHour: 200,
