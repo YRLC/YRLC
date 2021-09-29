@@ -24,7 +24,7 @@
 
 <script>
   export default {
-    name: 'Partnership'
+    name: 'InternationalPartnership'
   }
 </script>
 
