@@ -53,6 +53,9 @@
                 <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Vacant-Seats' }">
                   <a>Вакантные места для приема</a>
                 </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Partnership' }">
+                  <a>Международное сотрудничество</a>
+                </router-link>
               </ul>
             </li>
           </ul>
