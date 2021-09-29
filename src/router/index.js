@@ -30,6 +30,7 @@ import RUPaidEducation from '@/components/pages/ru/PaidEducation'
 import RUFinancial from '@/components/pages/ru/Financial'
 import RUVacantSeats from '@/components/pages/ru/VacantSeats'
 import RUInternationalPartnership from '@/components/pages/ru/InternationalPartnership'
+import RUAccessibleEnvironment from '@/components/pages/ru/AccessibleEnvironment'
 
 Vue.use(Router)
 
@@ -172,6 +173,11 @@ export default new Router({
       path: `${russian ? '/' : '/ru/'}international_partnership`,
       name: 'RU-International-Partnership',
       component: RUInternationalPartnership
+    },
+    {
+      path: `${russian ? '/' : '/ru/'}accessible_environment`,
+      name: 'RU-Accessible-Environment',
+      component: RUAccessibleEnvironment
     },
     {
       path: '/en/:any',

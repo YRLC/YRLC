@@ -56,6 +56,9 @@
                 <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-International-Partnership' }">
                   <a>Международное сотрудничество</a>
                 </router-link>
+                <router-link tag="li" exact-active-class="active" :to="{ name: 'RU-Accessible-Environment' }">
+                  <a>Доступная среда</a>
+                </router-link>
               </ul>
             </li>
           </ul>
