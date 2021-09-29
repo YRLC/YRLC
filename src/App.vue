@@ -23,7 +23,7 @@
   import LanguageSwitcher from './components/shared/LanguageSwitcher'
   import VisuallyImpairedButton from './components/shared/VisuallyImpairedButton'
 
-  const russian = false
+  const russian = true
 
   export default {
     name: 'app',
