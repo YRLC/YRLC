@@ -34,12 +34,12 @@ import RUAccessibleEnvironment from '@/components/pages/ru/AccessibleEnvironment
 
 Vue.use(Router)
 
-const russian = true
+const russian = false
 
 export default new Router({
   routes: [
     {
-      path: '/en/',
+      path: russian ? '/en/' : '/',
       name: 'Home',
       component: Home
     },
